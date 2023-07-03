@@ -4,10 +4,12 @@
     align-items: center;
     justify-content: center;
     padding: 50px;
+    margin: 0.5%;
   }
   
   .image-container {
-    width: 100%;
+    /* display: ; */
+    width: 100;
     max-width: 800px;
   }
   

@@ -1,12 +1,16 @@
 import React from 'react';
 import './HStyle.css';
-// import homeImage from '../../assets/home-image.jpg';
+import homeImage from '../../assets/home-image.jpg';
 
 const Home = () => {
   return (
     <div className="home">
+      
       <div className="image-container">
-        <img src='https://static.footballcounter.com/wp-content/uploads/2021/01/24165802/Dhanbad-Football-Academy.jpg' alt="Football Academy"  />
+        <img 
+          src= {homeImage} 
+          alt="Football Academy" 
+          className='img-fluid' />
       </div>
       <div className="content">
         <h1>Welcome to the Football Academy</h1>

@@ -1,15 +1,15 @@
 import React from 'react';
 import './FcStyle.css';
-// import facility1Image from '../../assets/facility1.jpg';
-// import facility2Image from '../../assets/facility2.jpg';
-// import facility3Image from '../../assets/facility3.jpg';
+import facility1Image from '../../assets/facility1.jpg';
+import facility2Image from '../../assets/facility2.jpg';
+import facility3Image from '../../assets/facility3.jpg';
 
 const Facilities = () => {
   return (
     <div className="facilities">
-      <h1>Our Facilities</h1>
+      <h1>F a c i l i t i e s</h1>
       <div className="facility">
-        <img src='https://cdn.dribbble.com/users/4001310/screenshots/8574876/custom___1.png' alt="Facility 1" />
+        <img src={facility1Image} alt="Facility 1" />
         <div className="description">
           <h2>Football Fields</h2>
           <p>
@@ -20,7 +20,7 @@ const Facilities = () => {
         </div>
       </div>
       <div className="facility">
-        <img src='https://cdn.dribbble.com/users/4001310/screenshots/8574876/custom___1.png' alt="Facility 2" />
+        <img src={facility2Image} alt="Facility 2" />
         <div className="description">
           <h2>Indoor Training Areas</h2>
           <p>
@@ -32,7 +32,7 @@ const Facilities = () => {
         </div>
       </div>
       <div className="facility">
-        <img src='https://cdn.dribbble.com/users/4001310/screenshots/8574876/custom___1.png' alt="Facility 3" />
+        <img src={facility3Image} alt="Facility 3" />
         <div className="description">
           <h2>Gymnasiums</h2>
           <p>

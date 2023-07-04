@@ -1,28 +1,31 @@
 import React from 'react';
 import './ChStyle.css';
+import coach1 from '../../assets/coach1.jpg';
+import coach2 from '../../assets/coach2.jpg';
+import coach3 from '../../assets/coach3.jpg';
 
 const Coaches = () => {
   const coachesData = [
     {
       name: 'John Doe',
-      qualification: 'UEFA Pro License',
+      qualification: 'AFC Pro License',
       experience: '10+ years',
       specialty: 'Tactical Training',
-      photo: 'https://cdn.dribbble.com/users/4001310/screenshots/8574876/custom___1.png',
+      photo: coach1,
     },
     {
-      name: 'Jane Smith',
-      qualification: 'UEFA A License',
+      name: 'Ryan Roy Shah',
+      qualification: 'AFC A License',
       experience: '8 years',
       specialty: 'Player Development',
-      photo: 'https://cdn.dribbble.com/users/4001310/screenshots/8574876/custom___1.png',
+      photo: coach2,
     },
     {
-      name: 'Mike Johnson',
-      qualification: 'UEFA B License',
-      experience: '5 years',
+      name: 'Santosh Kashyap',
+      qualification: 'AFC A License',
+      experience: '10 years',
       specialty: 'Technical Skills',
-      photo: 'https://cdn.dribbble.com/users/4001310/screenshots/8574876/custom___1.png',
+      photo: coach3,
     },
   ];
 
@@ -32,7 +35,7 @@ const Coaches = () => {
       <div className="coach-list">
         {coachesData.map((coach, index) => (
           <div className="coach" key={index}>
-            {/* <img src={require(`https://cdn.dribbble.com/users/4001310/screenshots/8574876/custom___1.png`).default} alt={coach.name} /> */}
+            <img src={coach.photo} alt={coach.name} />
             <div className="coach-details">
               <h2>{coach.name}</h2>
               <p>Qualification: {coach.qualification}</p>

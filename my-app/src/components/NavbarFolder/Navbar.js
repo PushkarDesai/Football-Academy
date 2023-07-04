@@ -9,28 +9,53 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <nav className="navbar">
-      <div className="logo">Football Academy</div>
-      <div className={`menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-        <div className="menu-line"></div>
-        <div className="menu-line"></div>
-        <div className="menu-line"></div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div className="container mx-2" style={{maxWidth: '1600px'}}>
+        <Link to="/" className="navbar-brand">
+          Football Academy
+        </Link>
+        <button
+          className={`navbar-toggler ${isOpen ? 'collapsed' : ''}`}
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded={isOpen}
+          aria-label="Toggle navigation"
+          onClick={toggleMenu}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
+          <ul className="navbar-nav ml-auto ">
+            <li className="nav-item">
+              <Link to="/" className="nav-link" onClick={closeMenu}>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/facilities" className="nav-link" onClick={closeMenu}>
+                Facilities
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/coaches" className="nav-link" onClick={closeMenu}>
+                Coaches
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/programs" className="nav-link" onClick={closeMenu}>
+                Programs
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <li className="nav-link">
-          <Link to="/">Home</Link>
-        </li>
-        <li className="nav-link">
-          <Link to="/facilities">Facilities</Link>
-        </li>
-        <li className="nav-link">
-          <Link to="/coaches">Coaches</Link>
-        </li>
-        <li className="nav-link">
-          <Link to="/programs">Programs</Link>
-        </li>
-      </ul>
     </nav>
   );
 };

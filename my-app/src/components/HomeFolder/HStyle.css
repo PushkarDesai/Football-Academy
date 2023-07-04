@@ -23,6 +23,8 @@
   }
   
   .content {
+    padding-left: 20%;
+    padding-right: 20%;
     margin-top: 10px;
     text-align: center;
   }

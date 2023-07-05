@@ -28,7 +28,7 @@ const Programs = () => {
 
   return (
     <div className="programs">
-      <h1>Our Programs</h1>
+      <h1>OUR PROGRAMS</h1>
       <div className="program-list">
         {programsData.map((program, index) => (
           <div className="program" key={index}>

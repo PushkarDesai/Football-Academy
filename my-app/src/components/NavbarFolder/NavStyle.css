@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&display=swap');
+
 .navbar {
   /* height: 90px; */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
+  /* font-family: 'Caprasimo', cursive; */
+  /* font-family: 'Lilita One', cursive; */
   font-size: 24px;
   font-weight: bold;
   line-height: 80px;

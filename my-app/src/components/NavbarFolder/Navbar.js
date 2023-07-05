@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavStyle.css';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container mx-2" style={{maxWidth: '1600px'}}>
         <Link to="/" className="navbar-brand">
-          Football Academy
+          Football ACADEMY
         </Link>
         <button
           className={`navbar-toggler ${isOpen ? 'collapsed' : ''}`}

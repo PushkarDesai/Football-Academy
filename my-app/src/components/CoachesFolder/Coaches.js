@@ -7,7 +7,7 @@ import coach3 from '../../assets/coach3.jpg';
 const Coaches = () => {
   const coachesData = [
     {
-      name: 'John Doe',
+      name: 'Khalid Jamil',
       qualification: 'AFC Pro License',
       experience: '10+ years',
       specialty: 'Tactical Training',
@@ -31,7 +31,7 @@ const Coaches = () => {
 
   return (
     <div className="coaches">
-      <h1>Our Coaches</h1>
+      <h1>OUR COACHES</h1>
       <div className="coach-list">
         {coachesData.map((coach, index) => (
           <div className="coach" key={index}>

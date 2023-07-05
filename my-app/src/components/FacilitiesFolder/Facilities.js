@@ -7,7 +7,7 @@ import facility3Image from '../../assets/facility3.jpg';
 const Facilities = () => {
   return (
     <div className="facilities">
-      <h1>F a c i l i t i e s</h1>
+      <h1>FACILITIES</h1>
       <div className="facility">
         <img src={facility1Image} alt="Facility 1" />
         <div className="description">

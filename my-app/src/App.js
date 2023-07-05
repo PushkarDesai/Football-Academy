@@ -10,6 +10,7 @@ import Facilities from './components/FacilitiesFolder/Facilities';
 // import Schedule from './components/Schedule/Schedule';
 // import Registration from './components/Registration/Registration';
 // import Contact from './components/Contact/Contact';
+import Footer from './components/FooterFolder/Footer';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/coaches" component={Coaches} />
         <Route path="/programs" component={Programs} />
       </Switch>
+      <Footer />
     </Router>
   );
 };

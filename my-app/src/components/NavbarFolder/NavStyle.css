@@ -4,42 +4,49 @@
 .navbar {
   /* height: 90px; */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: teal;
 }
 
 .navbar-brand {
   /* font-family: 'Caprasimo', cursive; */
   /* font-family: 'Lilita One', cursive; */
   font-size: 24px;
-  font-weight: bold;
+  /* font-weight: bold; */
   line-height: 80px;
+  color: white;
 }
 
 .navbar-toggler {
   border: none;
+  color: teal;
 }
 
 .navbar-toggler-icon {
   width: 1.5em;
   height: 1.5em;
   float: right;
-  background-image: url('data:image/svg+xml;charset=UTF-8,%3csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3e%3cpath stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e');
+  
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3e%3cpath stroke="rgba(255, 255, 255, 255)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e');
 }
 
 .collapse.navbar-collapse.show {
   display: flex !important;
   justify-content: flex-end;
+  
 }
 
 .navbar-nav {
   margin-left: auto;
+  color: white;
 }
 
 .nav-item {
   margin-right: 20px;
+  color: white;
 }
 
 .nav-link {
-  color: #333333;
+  color: #ffffff;
   transition: color 0.3s ease;
 }
 

@@ -8,7 +8,7 @@ import Programs from './components/ProgramsFolder/Programs';
 import Coaches from './components/CoachesFolder/Coaches';
 import Facilities from './components/FacilitiesFolder/Facilities';
 // import Schedule from './components/Schedule/Schedule';
-// import Registration from './components/Registration/Registration';
+import Registration from './components/RegistrationFolder/Registration';
 // import Contact from './components/Contact/Contact';
 import Footer from './components/FooterFolder/Footer';
 
@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/facilities" component={Facilities} />
         <Route path="/coaches" component={Coaches} />
         <Route path="/programs" component={Programs} />
+        <Route path="/registration" component={Registration} />
       </Switch>
       <Footer />
     </Router>

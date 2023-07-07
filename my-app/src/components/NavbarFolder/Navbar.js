@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container mx-2" style={{maxWidth: '1600px'}}>
         <Link to="/" className="navbar-brand">
           Football ACADEMY

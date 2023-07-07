@@ -54,6 +54,11 @@ const Navbar = () => {
                 Programs
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/registration" className="nav-link" onClick={closeMenu}>
+                Registration
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

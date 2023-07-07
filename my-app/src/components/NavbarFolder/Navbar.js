@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container mx-2" style={{maxWidth: '1600px'}}>
         <Link to="/" className="navbar-brand">
-          Football ACADEMY
+          FOOTBALL  ACADEMY
         </Link>
         <button
           className={`navbar-toggler ${isOpen ? 'collapsed' : ''}`}

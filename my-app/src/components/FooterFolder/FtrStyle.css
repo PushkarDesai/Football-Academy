@@ -1,7 +1,7 @@
 .footer {
     background-color: teal;
     /* padding: 20px 0; */
-    height: 35vh;
+    /* height: 35vh; */
     position: relative;
     padding-top: 20px;
   }
@@ -40,7 +40,7 @@
     margin: 10px 0;
     text-align: center;
     gap: 0px;
-    
+    font-family: 'Exo 2', sans-serif;
   }
   
   .footer-links li {
@@ -63,6 +63,7 @@
   .footer-copy {
     text-align: center;
     font-size: 14px;
-    color: #1e534c;
+    color: #2b3533;
+    font-family: 'Exo 2', sans-serif;
   }
   

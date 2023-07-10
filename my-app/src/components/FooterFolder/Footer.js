@@ -25,12 +25,12 @@ const Footer = () => {
               <li>
                 <a href="/registration">Registration</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/contact">Contact Us</a>
               </li>
               <li>
                 <a href="/about">About Us</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-md-12">

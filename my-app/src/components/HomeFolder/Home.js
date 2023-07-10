@@ -10,7 +10,7 @@ const Home = () => {
         <img 
           src= {homeImage} 
           alt="Football Academy" 
-          className='img-fluid' />
+          className='img-fluid'/>
       </div>
       <div className="content">
         <h1>Welcome to the Football Academy</h1>
